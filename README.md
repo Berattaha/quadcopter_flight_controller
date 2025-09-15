@@ -3,7 +3,7 @@
 
 This repository contains the hardware and firmware design of a DIY quadcopter flight controller based on the Teensy 3.6 microcontroller.
 
-## ✨ Background
+## Background
 
 This project was developed during my second year of college, during the COVID-19 pandemic. At the time, I had not yet taken a formal course in control theory. Therefore, the PID controller was not designed or simulated using MATLAB or similar tools.
 
@@ -12,11 +12,11 @@ Instead, I took a more hands-on approach:
 - It worked surprisingly well, and turned out to be a fun way to experiment with tuning.
 - The quadcopter was flight-tested several times — and while it requires a bit of piloting skill, it flies well!
 
-👉 A demo video can be found in the [`videos/`](videos) folder.
+ A demo video can be found in the [`videos/`](videos) folder.
 
 ---
 
-## 🧰 Features
+## Features
 
 - Sensor fusion from MPU6050 accelerometer and gyroscope data
 - Simple PID-based stabilization algorithm tuned experimentally
@@ -27,7 +27,7 @@ Instead, I took a more hands-on approach:
 
 ---
 
-## 🧱 Mechanical Design
+## Mechanical Design
 
 A compact case was designed and 3D-printed to hold both:
 - The power hub (bottom section)
@@ -38,7 +38,7 @@ You can find the `.stl` file in the [`docs/`](docs) folder.
 
 ---
 
-## ⚡ Electronics & Wiring
+## Electronics & Wiring
 
 Since I didn’t fabricate a PCB, I designed the schematic using **Fritzing**.  
 It may not be the prettiest, but it gets the job done.
@@ -47,9 +47,9 @@ Required libraries are included in the [`libraries/`](libraries) folder.
 
 ---
 
-## 🔩 Components
+## Components
 
-### 🧠 Flight Controller
+### Flight Controller
 
 - Teensy 3.6 (MK66FX1M0)
 - MPU6050 (Accelerometer + Gyroscope)
@@ -58,7 +58,7 @@ Required libraries are included in the [`libraries/`](libraries) folder.
 - 1x Buzzer (with 100Ω resistor)
 - 5x7 cm perfboard
 
-### 🚁 Quadcopter Frame
+### Quadcopter Frame
 
 - Radiolink AT9s Pro + R12DSM Receiver
 - DJI F450 Frame
