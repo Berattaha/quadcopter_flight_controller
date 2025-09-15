@@ -12,7 +12,7 @@ Instead, I took a more hands-on approach:
 - It worked surprisingly well, and turned out to be a fun way to experiment with tuning.
 - The quadcopter was flight-tested several times — and while it requires a bit of piloting skill, it flies well!
 
- A demo video can be found in the [`videos/`](videos) folder.
+ A demo video can be found in the [YouTube Demo Video](https://youtube.com/shorts/SQsQxhgbjAk?feature=share) folder. 
 
 ---
 
